@@ -12,6 +12,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 100px;
 }
 
 * {
@@ -239,6 +240,10 @@ a {
 
 /* Responsiveness / Media Queries */
 @media (max-width: 768px) {
+  html {
+    scroll-padding-top: 180px;
+  }
+  
   .navbar {
     flex-direction: column;
     padding: 1rem;

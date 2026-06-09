@@ -87,7 +87,7 @@ export default function Passions({ revealRef }) {
                 Today, I swim purely for the joy and nostalgia of it. Out of the pool, I keep myself challenged and fit with bodyweight training and weighted calisthenics. The discipline, focus, and resilience I built during my athletic career are the exact same qualities I bring to software engineering.
               </p>
               <a href="https://www.tuttosport.com/news/piemonte-news/2021/07/07-83378507/aquatica_torino_ottimi_risultati_ottenuti_nel_passato_weekend" target="_blank" rel="noreferrer" className="flex-center nav-link" style={{ display: 'inline-flex', color: 'var(--accent-blue)', fontWeight: 'bold' }}>
-                <ExternalLink size={16} /> Read about my team's results on Tuttosport
+                <ExternalLink size={16} /> Read about one of my achievements
               </a>
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem', flex: '1 1 250px', alignItems: 'center' }}>
