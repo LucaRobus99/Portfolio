@@ -70,6 +70,11 @@ function App() {
         {/* Hero Section */}
         <section id="about" className="section">
           <div className="glass-panel reveal" ref={revealRef} style={{ textAlign: 'center' }}>
+            <img 
+              src="https://github.com/LucaRobus99.png" 
+              alt="Luca Robustelli" 
+              style={{ width: '150px', height: '150px', borderRadius: '50%', marginBottom: '1.5rem', border: '3px solid var(--accent-purple)', boxShadow: '0 0 20px rgba(197, 108, 240, 0.3)' }} 
+            />
             <h1 style={{ marginBottom: '1rem' }}>
               Hi, I'm <span className="gradient-text">Luca Robustelli</span>
             </h1>
@@ -129,7 +134,7 @@ function App() {
                 <Database size={22} color="var(--accent-purple)" /> Tools & DBs
               </h3>
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.6rem' }}>
-                {['Git', 'Linux', 'SQL', 'MySQL', 'PostgreSQL', 'MongoDB'].map(skill => (
+                {['Git', 'Linux', 'SQL', 'MySQL', 'PostgreSQL', 'SQLite', 'MongoDB'].map(skill => (
                   <span key={skill} className="skill-tag">{skill}</span>
                 ))}
               </div>
