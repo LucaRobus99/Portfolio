@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Mail, Phone } from 'lucide-react';
+import { MapPin, Mail, Phone, Download } from 'lucide-react';
 
 export default function Hero({ revealRef }) {
   return (
@@ -33,6 +33,13 @@ export default function Hero({ revealRef }) {
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent-purple)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.02c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A4.8 4.8 0 0 0 8 18v4"></path></svg> 
             <a href="https://github.com/LucaRobus99" target="_blank" rel="noreferrer" className="nav-link">LucaRobus99</a>
           </div>
+        </div>
+        
+        {/* Download CV Button */}
+        <div style={{ marginTop: '2.5rem' }}>
+          <a href="/Luca_Robustelli_CV.pdf" download className="btn-primary" style={{ textDecoration: 'none' }}>
+            <Download size={20} /> Scarica il mio CV
+          </a>
         </div>
       </div>
     </section>

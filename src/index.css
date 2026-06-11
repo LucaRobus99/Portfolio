@@ -169,6 +169,28 @@ a {
   display: inline-block;
 }
 
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  background: var(--gradient-accent);
+  color: #000;
+  padding: 0.8rem 1.8rem;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(69, 243, 255, 0.3);
+}
+
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(197, 108, 240, 0.5);
+  color: #000;
+}
+
 .nav-link {
   color: var(--text-secondary);
   font-weight: 500;
