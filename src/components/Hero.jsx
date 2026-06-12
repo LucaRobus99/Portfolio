@@ -37,8 +37,14 @@ export default function Hero({ revealRef }) {
         
         {/* Download CV Button */}
         <div style={{ marginTop: '2.5rem' }}>
-          <a href="/Luca_Robustelli_CV.pdf" download className="btn-primary" style={{ textDecoration: 'none' }}>
-            <Download size={20} /> Scarica il mio CV
+          <a 
+            href="https://drive.google.com/file/d/1qa6ENfYWAMA5T0JjPgl8ZLttwlhrpj7Q/view?usp=sharing" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="btn-primary" 
+            style={{ textDecoration: 'none' }}
+          >
+            <Download size={20} /> Send a request to see my CV
           </a>
         </div>
       </div>
